@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+body {
+    margin: 0;
+    color: rgba(9, 179, 9, 0.568);
+    background-color: rgb(255,255,255);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+}
+
+.container {
+    width: 500px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.932);
+    color: rgba(9, 179, 9, 0.568);
+    border-radius: 100px;
+    border: 20px solid rgba(70, 70, 70, 0.932);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px; 
+}
+.first-row {
+    display: flex;
+    gap: 5px;
+}
+
+#clock {
+    font-size: 35px;
+    display: inline;
+}
+
+footer {
+    color: rgb(70,70,70);
+    margin-top: 50px;
+}
